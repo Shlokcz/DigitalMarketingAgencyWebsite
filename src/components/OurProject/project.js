@@ -1,18 +1,6 @@
 import React, { useState } from "react";
 import Styles from "./project.module.css";
 
-// const images = [
-//   {
-//     srcc: "/images/japan.jpg",
-//   },
-//   {
-//     srcc: "/images/projectImg1.png",
-//   },
-//   {
-//     srcc: "/images/japan1.jpg",
-//   },
-// ];
-
 const projects = [
   {
     title: "Genderless Kei - Japan's Hot",
@@ -24,7 +12,7 @@ const projects = [
     title: "Better Strategy & Quality",
     description:
       "Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of",
-    srcc: "/images/projectImg1.png",  
+    srcc: "/images/projectimg1.png",  
   },
   {
     title: "Genderless Kei - Japan's Hot",

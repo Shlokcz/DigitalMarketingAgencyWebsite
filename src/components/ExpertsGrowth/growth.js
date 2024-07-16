@@ -13,12 +13,12 @@ const boxes = [
         para: "Days Of Operation",
     },
     {
-        src: "/images/Path 4402.svg",
+        src: "/images/path 4402.svg",
         num: "283+",
         para: "Complete Project",
     },
     {
-        src: "/images/Path 4406.svg",
+        src: "/images/path 4406.svg",
         num: "75+",
         para: "Win Awards",
     },
