@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    background-color: #d32537;
+    height: 340px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+}
+
+.footer img{
+    height: 54px;
+}
+
+@media (max-width: 1200px) {
+    .footer img{
+        height: 40px;
+        width: 800px;
+        transition: height 0.5s ease, width 0.5s ease-in-out;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer img{
+        height: 28px;
+        width: 600px;
+        transition: height 1s ease, width 0.5s ease-in-out;
+    }
+}

@@ -1,0 +1,35 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1500px;
+}
+
+.feedback h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.feedback h2{
+    font-size: 46px;
+}
+
+.feedback p{
+    width: 50%;
+    text-align: justify;
+}
+
+.feedback span{
+    color: #ff3147;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.lastpara{
+    color: grey;
+    font-size: 22px;
+    font-weight: 300;
+}

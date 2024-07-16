@@ -1,0 +1,158 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1500px;
+}
+
+.project > h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff3147;
+}
+
+.project > h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.projectContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectText div{
+    height: 144px;
+    width: 300px;
+    padding: 20px;
+}
+
+.otherdivs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    gap: 10px;
+}
+
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #ff3147;
+    gap: 10px;
+}
+
+.projectImg img{
+    height: 550px;
+    width: 700px;
+}
+
+.active {
+    color: white;
+    background-color: #ff3147; /* Change this to your desired active color */
+}
+
+@media (max-width: 1070px) {
+    .projectImg img{
+        height: 400px;
+        width: 550px;
+        transition: height 1s ease, width 1s ease;
+    }
+
+    .projectText div {
+        height: 95px;
+        width: 200px;
+        transition: height 1s ease, width 1s ease;
+    }
+
+    .projectText div h3{
+        font-size: 14px;
+        transition: font-size 1s ease;
+    }
+
+    .projectText div p{
+        font-size: 12px;
+        transition: font-size 1s ease;
+    }
+}
+
+@media  (max-width: 815px) {
+    .project > h2{
+        font-size: 50px;
+        transition: font-size 1s ease;
+    }
+
+    .projectContent{
+        gap: 16px;
+    }
+
+    .projectImg img{
+        height: 300px;
+        width: 450px;
+        transition: height 1s ease, width 1s ease;
+    }
+
+    .projectText div {
+        height: 82px;
+        width: 200px;
+        transition: height 1s ease, width 1s ease;
+        padding: 10px;
+    }
+
+    .projectText div h3{
+        font-size: 12px;
+        transition: font-size 1s ease;
+    }
+
+    .projectText div p{
+        font-size: 10px;
+        transition: font-size 1s ease;
+    }
+}
+
+@media (max-width: 740px) {
+    .project > h2{
+        font-size: 40px;
+        transition: font-size 1s ease;
+    }
+
+    .projectContent{
+        gap: 12px;
+    }
+
+    .projectImg img{
+        height: 225px;
+        width: 350px;
+        transition: height 1s ease, width 1s ease;
+    }
+
+    .projectText div {
+        height: 65px;
+        width: 160px;
+        transition: height 1s ease, width 1s ease;
+        padding: 6px;
+    }
+
+    .projectText div h3{
+        font-size: 10px;
+        transition: font-size 1s ease;
+    }
+
+    .projectText div p{
+        font-size: 8px;
+        transition: font-size 1s ease;
+    }
+}

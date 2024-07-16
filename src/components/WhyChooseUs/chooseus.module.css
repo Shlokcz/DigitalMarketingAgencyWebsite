@@ -1,0 +1,41 @@
+.chooseus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 550px;
+    max-width: 1500px;
+}
+
+.chooseus > h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff3147;
+    margin-bottom: 40px;
+
+}
+
+.chooseus > h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    /* margin: 0; */
+}
+
+.things{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.things img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+

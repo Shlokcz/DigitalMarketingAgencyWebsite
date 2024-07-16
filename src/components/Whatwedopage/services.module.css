@@ -1,0 +1,146 @@
+.service{
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 1500px;
+}
+
+.services {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.whatwedo{
+    width: 94%;
+
+}  
+
+.whatwedo h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff3147;
+    margin-bottom: 30px;
+}  
+
+.whatwedo h2{
+    font-size: 40px;
+    /* width: 380px; */
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 60px;
+}
+
+.para p{
+    width: 60%;
+    text-align: justify;
+}
+
+.image_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 525px; /* Set this according to your image height */
+  width: 100%;
+  font-size: 20px;
+  background-color: #ff3147;
+  color: white;
+  text-align: center;
+}
+
+.image_description button{
+  width: 100px;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.image_description button a{
+  color: #ff3147;
+  text-decoration: none;
+}
+
+.slick-dots-bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex !important;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.slick-dots-bottom-right li {
+  margin: 0;
+}
+
+.slick-dots-bottom-right li button::before {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .slider_item img{
+    height: 350px;
+    width: 250px;
+  }
+
+  .whatwedo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .para{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .image_description{
+    height: 350px;
+    width: 250px;
+  }
+
+  .image_description img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .image_description h2{
+    font-size: 16px;
+  }
+  .image_description p{
+    font-size: 12px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider_item img{
+    height: 250px;
+    width: 180px;
+  }
+
+  .image_description{
+    height: 250px;
+    width: 180px;
+  }
+
+  .image_description img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .image_description h2{
+    font-size: 14px;
+  }
+  .image_description p{
+    font-size: 10px;
+    width: 60%;
+  }
+}
