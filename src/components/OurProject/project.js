@@ -6,7 +6,7 @@ const projects = [
     title: "Genderless Kei - Japan's Hot",
     description:
       "Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of",
-    srcc: "/images/japan.jpg", 
+    srcc: "/images/japan.JPG", 
   },
   {
     title: "Better Strategy & Quality",
@@ -18,7 +18,7 @@ const projects = [
     title: "Genderless Kei - Japan's Hot",
     description:
       "Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of",
-    srcc: "/images/japan1.jpg",  
+    srcc: "/images/japan1.JPG",  
   },
 ];
 
